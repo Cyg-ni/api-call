@@ -1,25 +1,100 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> FFXIV Ult Raid List </title>
+        <title> FFXIV Job Actions </title>
     </head>
 
     <body>
         <div class="navbar">
-            <a href="#home"> Home </a>
+            <a href="#" onclick="showSection('home')"> Home </a>
             <div class="sb">
-                <button class="dropbtn"> Stormblood Ultimates
+                <button class="dropbtn"> Tanks
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Ultimate Weapon Ultimate (UWU)</a>
-                    <a href="#">Ultimate Coils of Bahamut (UCOB)</a>
+                    <a href="#" onclick="showSection('pld')">Paladin</a>
+                    <a href="#" onclick="showSection('war')">Warrior</a>
                 </div>
             </div>>
-            <a href="shb">Shadowbringer Ultimates</a>
-            <a href="ew">Endwalker Ultimates</a>
-            <a href="dt">Dawntrail Ultimates</a>
+            <button class="dropbtn"> Healers
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" onclick="showSection('whm')">White Mage</a>
+                <a href="#" onclick="showSection('sch')">Scholar</a>
+            </div>
+            <button class="dropbtn"> Melee DPS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" onclick="showSection('nin')">Ninja</a>
+                <a href="#" onclick="showSection('drg')">Dragoon</a>
+                <a href="#" onclick="showSection('mnk')">Monk</a>
+            </div>
+            <button class="dropbtn"> Caster DPS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" onclick="showSection('blm')">Black Mage</a>
+                <a href="#" onclick="showSection('smn')">Summoner</a>
+            </div>
+            <button class="dropbtn"> Physical Ranged DPS
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#" onclick="showSection('brd')">Bard</a>
+                <a href="#" onclick="showSection('mch')">Machinist</a>
+            </div>
         </div>
+
+        <div id="home" class="section">
+            Home blah blah yes yes you are HERE BRO
+        </div>
+
+        <div id="pld" class="section">
+            rahhh i shield
+        </div>
+
+        <div id="drk" class="section">
+            edgy ahh class
+        </div>
+
+        <div id="whm" class="section">
+            hiling por ebriwan
+        </div>
+
+        <div id="sch" class="section">
+            nerd emoji
+        </div>
+        
+        <div id="nin" class="section">
+            raiju buff when
+        </div>
+
+        <div id="drg" class="section">
+            rahhh
+        </div>
+
+        <div id="mnk" class="section">
+            yas!
+        </div>
+
+        <div id="blm" class="section">
+            kaboom
+        </div>
+
+        <div id="smn" class="section">
+            blue eyes white dragon
+        </div>
+
+        <div id="brd" class="section">
+            karaoke kween
+        </div>
+
+        <div id="mch" class="section">
+            valorant enjoyer
+        </div>
+
     </body>
 
     <footer>
