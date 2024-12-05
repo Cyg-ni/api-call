@@ -8,13 +8,46 @@
     
 
 </head>
-<body>
+<body class="bg-[#f5f2eb]">
     <script src="script.js" defer></script>
-    <button id="ye">
-        <button onclick="getText()">Click me</button>
-    </button>
-    
-    
 
+    <div class="bg-zinc-900">
+        <div class="max-w-xl flex justify-center w-full mx-auto relative items-center">
+            <img class="absolute w-2/3 " src="https://lds-img.finalfantasyxiv.com/promo/h/1/q0Aq7Pl3uvaFbj7rEswEa1kAHw.png" alt="">
+            <img src="https://lds-img.finalfantasyxiv.com/promo/h/9/75UXiFOAaNaD1C0xVUQcb-Mc-Y.jpg" alt="">
+        </div>
+        <div class="bg-red-900 text-bold text-white text-center text-lg">
+            Master a variety of actions, and turn the tide of battle!
+        </div>
+    </div>
+
+
+    <div class="p-4 mx-auto rounded-m max-w-xl bg-[#e5e3d3] rounded-md" >
+        <table class="table-auto min-w-full p-4 border-spacing-2 border border-separate" >
+            <thead class="rounded-md text-white text-lg " >
+                <tr >
+                  <th class="rounded-md bg-red-900 px-4 ">Action Icon</th>
+                  <th class="rounded-md bg-red-900 px-4">Action Name</th>
+                  <th class="rounded-md bg-red-900 px-4">ID</th>
+                </tr>
+              </thead>
+              <tbody id="class-actions" class="text-center border-collapse ">
+              </tbody>
+
+        </table>
+
+    <div class="flex justify-around items-center">
+        <button class="bg-red-900 text-white rounded-full px-6 py-1" onclick="prevPage()">
+            Previous
+        </button>
+        <div id="page-number" class="text-bold">
+            
+        </div>
+        <button class="bg-red-900 text-white rounded-full px-6 py-1" onclick="nextPage()">
+            Next
+        </button>
+        </div>
+    </div>
+   
 </body>
 </html>
